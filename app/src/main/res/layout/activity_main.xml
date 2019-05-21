@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/text_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Game Center"
+        android:textSize="35dp"
+     />
+    <Button
+        android:id="@+id/button_1"
+        android:layout_below="@id/text_title"
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:textSize="20dp"
+        android:layout_centerHorizontal="true"
+        android:text="猜数字"/>
+    <Button
+        android:id="@+id/button_2"
+        android:layout_below="@id/button_1"
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:textSize="20dp"
+        android:layout_centerHorizontal="true"
+        android:text="石头剪刀布"/>
+    <Button
+        android:id="@+id/button_3"
+        android:layout_below="@id/button_2"
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:textSize="20dp"
+        android:layout_centerHorizontal="true"
+        android:text="掷骰子"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="50dp"
+        android:src="@drawable/normal2" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="25dp"
+        android:text="Dev:Luncode" />
+    </RelativeLayout>
